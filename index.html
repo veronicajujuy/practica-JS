@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Práctica DOM</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 id="titulo">Clase DOM</h1>
+    <p class="subtitulo">Ejemplo básico para practicar selectores y manipulación</p>
+  </header>
+
+  <main>
+    <section id="info" class="bloque">
+      <h2>Sección Información</h2>
+      <p class="texto">Este es un párrafo dentro de <strong>#info</strong>.</p>
+      <h3>otro texto</h3>
+    </section>
+
+    <section id="tarjetas" class="bloque">
+      <h2>Sección Tarjetas</h2>
+      <article class="tarjeta activa">
+        <h3 class="tarjeta__titulo">Tarjeta A</h3>
+        <p class="tarjeta__texto">Soy la primera tarjeta.</p>
+      </article>
+      <article class="tarjeta">
+        <h3 class="tarjeta__titulo">Tarjeta B</h3>
+        <p class="tarjeta__texto">Soy la segunda tarjeta.</p>
+      </article>
+      <article class="tarjeta">
+        <h3 class="tarjeta__titulo">Tarjeta C</h3>
+        <p class="tarjeta__texto">Soy la tercera tarjeta.</p>
+      </article>
+      <button >Agregar clase a tarjeta</button>
+      <button class="oculto">Boton Oculto</button>
+    </section>
+  </main>
+
+  <footer>
+    <small>Hecho para práctica DOM ✨</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

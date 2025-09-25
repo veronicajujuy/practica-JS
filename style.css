@@ -1,0 +1,61 @@
+:root {
+  --bg: #f7f7fb;
+  --card: #ffffff;
+  --text: #1f2937;
+  --border: #e5e7eb;
+  --accent: #3b82f6;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+header, main, footer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+.subtitulo {
+  color: #6b7280;
+}
+
+.bloque {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+.tarjeta {
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  padding: 10px;
+  margin: 8px 0;
+}
+
+.resaltada {
+  border-color: var(--accent);
+  background: #e0f2fe;
+}
+
+.oculto {
+  display: none;
+}
+
+button{
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  padding: 10px;
+  margin: 8px 0;
+  background-color: #1f2937;
+  color: #fff;
+}
